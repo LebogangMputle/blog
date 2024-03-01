@@ -43,3 +43,31 @@ h2 {
     width: 100px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+    /* Adjust your CSS rules for small screens here */
+    .wrapper {
+      /* Example styles for small screens */
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    /* Adjust your CSS rules for medium screens here */
+    .wrapper {
+      /* Example styles for medium screens */
+      width: 80%;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    /* Adjust your CSS rules for large screens here */
+    .wrapper {
+      /* Example styles for large screens */
+      width: 70%;
+    }
+  }
